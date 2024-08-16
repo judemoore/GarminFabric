@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Lakehouse",
+    "displayName": "GarminLakeHouse"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0e2eb1cf-c1f6-41f8-b7d6-8948124cba83"
+  }
+}

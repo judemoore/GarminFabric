@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Garmin Alpha"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "520d93ab-7852-4afb-9a37-63b20c0872cb"
+  }
+}
