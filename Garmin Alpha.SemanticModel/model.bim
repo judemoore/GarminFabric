@@ -16879,10 +16879,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
           }
         ],
         "columns": [
@@ -17322,10 +17318,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
           }
         ],
         "columns": [
@@ -18235,6 +18227,7 @@
               "    , CONTAINSSTRING (\"lap_swimming\",LOWER([activityType.typeKey]) ), \"Swimming\" ",
               "    , CONTAINSSTRING (\"walking\",LOWER([activityType.typeKey]) ), \"Walking\" ",
               "    , CONTAINSSTRING (\"hiit\",LOWER([activityType.typeKey]) ), \"HIIT\" ",
+              "    , CONTAINSSTRING (\"rowing_v2\",LOWER([activityType.typeKey]) ), \"Rowing\" ",
               "    , UPPER(LEFT([activityType.typeKey],1)) & MID([activityType.typeKey], 2, LEN([activityType.typeKey]) ) ",
               ")"
             ],
